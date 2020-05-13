@@ -1,0 +1,16 @@
+{
+  "name": "QtdTotalUser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "optimize.js",
+  "dependencies": {
+    "mongodb": "^3.5.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "serverless deploy -v"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

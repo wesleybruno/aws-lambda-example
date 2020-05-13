@@ -1,0 +1,13 @@
+service: qtdtotaluser
+provider:
+  name: aws
+  runtime: nodejs12.x
+  region: sa-east-1
+functions:
+  optimize:
+    handler: optimize.handle
+    environment:
+      MONGO_SOURCE_URL: 
+      MONGODB_SOURCE_DATABASE: 
+      MONGO_URL: 
+      MONGODB_DATABASE: 
